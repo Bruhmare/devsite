@@ -31,7 +31,7 @@ export function HeroSection() {
           className="cursor-pointer"
         >
           <Image 
-            src="/dev-profile-text.png" 
+            src="/dev-profile-two.png" 
             alt="Dev Profile" 
             width={1200}
             height={450}
