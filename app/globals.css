@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  height: 300vh; /* This creates the scroll space for sticky sections */
+}
+
+.cinzel-font {
+  font-family: 'Cinzel', serif;
+}
+
+.hollow-knight-glow {
+  text-shadow: 
+    0 0 5px rgba(255, 255, 255, 0.3),
+    0 0 10px rgba(255, 255, 255, 0.2),
+    0 0 15px rgba(255, 255, 255, 0.1);
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.8));
+  letter-spacing: 0.1em;
+}
